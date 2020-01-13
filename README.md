@@ -3,7 +3,7 @@
 ![](https://img.shields.io/github/repo-size/jerboa88/custom-url-shortener.svg "Repository size")
 [![](https://img.shields.io/github/license/jerboa88/custom-url-shortener.svg "Project license")](LICENSE)
 
-Generate shorter urls using my own domain name
+A Jekyll & Javascript based URL shortener for personal use
 
 ## License
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.

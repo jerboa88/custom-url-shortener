@@ -1,7 +1,7 @@
 # Site settings
-title: John's Portfolio
+title: John's URL Shortener
 author: John Goodliff
-description: "John Goodliff's personal portfolio"
+description: "A Jekyll & Javascript based URL shortener for personal use"
 url: "l.johng.io"
 github_link: "https://github.com/jerboa88/custom-url-shortener"
 
