@@ -1,0 +1,16 @@
+{
+  "$schema": "https://johng.io/schema/project-metadata.json",
+  "name": "Custom URL Shortener",
+  "background": "An experimental URL shortener website built using Jekyll and JavaScript. Link mappings are stored in Markdown files as part of a Jekyll collection, while the actual redirection is done client-side using JavaScript. This allows for a simple URL shortener without the need for a database or server-side code.",
+	"logoPath": "icon.png",
+	"category": "App",
+	"subcategory": "Web",
+  "technologies": [
+		"Jekyll"
+  ],
+  "schema": {
+    "type": "Web",
+    "applicationCategory": "Utilities",
+    "operatingSystem": "Any"
+  }
+}
