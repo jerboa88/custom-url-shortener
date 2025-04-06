@@ -15,7 +15,7 @@
     </a>
   </p>
   
-  <p class="projectDesc" data-exposition="An experimental URL shortener website built using Jekyll and JavaScript. Link mappings are stored in Markdown files as part of a Jekyll collection, while the actual redirection is done client-side using JavaScript. This allows for a simple URL shortener without the need for a database or server-side code.">
+  <p class="projectDesc">
     A Jekyll & JavaScript based URL shortener for personal use
   </p>
     
