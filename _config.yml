@@ -1,12 +1,11 @@
 # Site settings
-title: John's URL Shortener
+title: Short End - URL Shortener
 author: John Goodliff
-description: "A Jekyll & Javascript based URL shortener for personal use"
-url: "l.johng.io"
-github_link: "https://github.com/jerboa88/custom-url-shortener"
-
-# Change the primary color of the entire site
-theme_color: "#317b71"
+description: 'An experimental client-side URL shortener'
+# Used by Jekyll
+url: 'l.johng.io'
+github_url: 'https://github.com/jerboa88/short-end'
+privacy_policy_url: 'https://johng.io/privacy-policy'
 
 # Build settings
 markdown: kramdown
@@ -18,12 +17,10 @@ collections:
     output: true
     permalink: /:path/
 
-
 # Set default layout for link pages
 defaults:
-  -
-    scope:
-      path: "" # An empty string here means all files in the project
+  - scope:
+      path: '' # An empty string here means all files in the project
       type: links
     values:
       layout: link_page
