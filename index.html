@@ -1,12 +1,29 @@
 ---
 layout: main
-title: URL Shortener
 ---
-<section class="full-height">
-	<header class="error-header">
-		<h1>URL Shortener</h1>
-		<p>A Jekyll & Javascript based URL shortener subdomain</p>
-	</header>
-
-	{% include footer.html %}
-</section>
+<header>
+	<a href="/">
+		<h1>{{ site.title }}</h1>
+	</a>
+	<p>{{ site.description }}</p>
+	<nav>
+		<a href="{{ site.github_url }}" rel="external">GitHub</a>
+		<a href="{{ site.privacy_policy_url }}" rel="external privacy-policy">Privacy</a>
+	</nav>
+</header>
+<main>
+	<section>
+		<h2>
+			Links
+		</h2>
+		<ul>
+			{% for link in site.links %}
+			<li>
+				<a href="{{ link.url }}">{{ link.id }}</a>
+				→
+				<a href="{{ link.to }}" rel="external">{{ link.to }}</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</section>
+</main>
