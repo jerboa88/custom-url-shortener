@@ -1,0 +1,21 @@
+{
+  "name": "Short End - URL Shortener",
+  "short_name": "Short End",
+  "icons": [
+    {
+      "src": "/images/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#f4bf51",
+  "background_color": "#0a1120",
+  "display": "standalone"
+}
