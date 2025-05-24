@@ -1,36 +1,25 @@
 <!DOCTYPE html>
-<html style="--bg-color: {{ site.theme_color }};">
+<html lang="en">
 
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
 	<meta name="description" content="{{ site.description }}">
 	<meta name="author" content="{{ site.author }}">
 	<title>{{ site.title }}</title>
-
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131464775-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
-
-		gtag('config', 'UA-131464775-1')
-	</script>
 	<script type="application/ld+json">
 		{
 			"@context": "http://schema.org",
 			"@type": "Person",
 			"name": "John Goodliff",
-			"url": "https://jerboa88.github.io",
+			"url": "https://johng.io",
 			"sameAs" : [
 				"https://github.com/jerboa88",
-				"https://instagram.com/jerboa88",
-				"https://www.facebook.com/jerboa88"
+				"https://www.linkedin.com/in/johngoodliff/",
 			]
 		}
-		</script>
+	</script>
 
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400|Montserrat:900">
@@ -46,16 +35,5 @@
 <body>
 	{{ content }}
 </body>
-
-<!-- Use JS to handle scrolling page instead of anchor links if possible -->
-<script>
-	let down_button = document.getElementById('down-button'),
-		next = document.getElementById('next');
-
-	down_button.setAttribute('href', 'javascript:;');
-	down_button.addEventListener('click', function () {
-		next.scrollIntoView(true);
-	})
-</script>
 
 </html>
